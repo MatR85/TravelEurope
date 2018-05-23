@@ -1,0 +1,197 @@
+/* Custom Stylesheet */
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+/* Cover */
+
+#cover {
+    background: #222 url("img/cover.jpg") no-repeat center center;
+    background-size: cover;
+    color: white; 
+    height: 100%;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+}
+
+
+#cover-caption {
+    width: 100%;
+    background: rgba(0,10,0,0.5);
+    color: white;
+    padding: 1.875rem;
+}
+
+/* Navbar */
+
+#nav-main .navbar-brand {
+    color: #30a54f;
+}
+
+#nav-main .navbar-brand img {
+    height: 2.8125rem;
+}
+
+
+
+/* Carousel */
+
+#europe-carousel h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-indicators--round li {
+    border-radius: 0.625rem;
+    margin: 0.0625rem 0.1875rem;
+    height: 0.625rem;
+    max-width: 0.625rem;
+    border: 0.0625rem solid #FFF;
+    background-color: transparent;
+}
+.carousel-indicators .active {
+    background-color: #fff;
+    max-width: 0.75rem;
+    margin: 0 0.1875rem;
+    height: 0.75rem;
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 1.875rem;
+}
+
+/* Latest News */
+.section-content {
+    padding: 5rem 0;
+}
+
+#latest-news h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+/* Modals */
+
+#myModal-1 h5,
+#myModal-2 h5,
+#myModal-3 h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#myModal-1 h3,
+#myModal-2 h3,
+#myModal-3 h3 {
+    padding-top: 0.9375rem;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#myModal-1 p.quote,
+#myModal-2 p.quote,
+#myModal-3 p.quote {
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#myModal-1 .figure,
+#myModal-2 .figure,
+#myModal-3 .figure {
+    width: 100%;
+}
+
+.figure-caption span {
+    font-weight: bold;
+}
+
+
+/* Subscribe */
+
+#subscribe {
+    background: url("img/sunset.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+#subscribe .subscribe-text {
+    height: 34.375rem;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+/* Must have gadgets */
+
+#gadgets h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5625rem;
+}
+
+/* Footer*/
+ 
+.footer {
+
+    font-size: 1rem;
+    padding: 2.5rem;
+    color: white;
+    background-color: #222;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #30a54f;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+
+ .footer .social {
+
+    font-size: 1rem;
+    height: 1.875rem;
+    width: 1.875rem;
+    text-align: center;
+    padding: 0.3125rem;
+    border: 0.0625rem solid #cccccc;
+    margin-bottom: 0.625rem;
+    margin-right: 0.3125rem;
+} 
+
+
+
+
+
+ .footer i {
+
+    color: #fff;
+    background-color: #222;
+} 
+
+.footer a:hover i {
+
+    background-color: #30a54f;
+}   
+
+
+
+
